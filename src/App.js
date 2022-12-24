@@ -70,10 +70,11 @@ const App = ({ signOut }) => {
 
   return (
     <View
-      name="image"
-      as="input"
-      type="file"
-      style={{ alignSelf: "end" }}
+    <View
+       name="image"
+       as="input"
+       type="file"
+       style={{ alignSelf: "end" }}
     />
     <View className="App">
       <Heading level={1}>My Notes App</Heading>
